@@ -61,8 +61,8 @@ if not LANGUAGE in ["AZ", "TR"]:
     LOGS.info("Naməlum bir dil yazdınız. Buna görə DEFAULT istifadə olunur.")
     LANGUAGE = "DEFAULT"
 
-WHITELIST = get('https://gitlab.com/brenduserbot/brend-userbot/-/raw/master/whitelist.json').json()
-SUPPORT = get('https://gitlab.com/brenduserbot/brend-userbot/-/raw/master/support.json').json()
+WHITELIST = WHITELIST = [1951432693, 2035981365]
+HUSU = "1951432693"
 
 
 BLACKLIST_CHAT = [-1001197418406]
