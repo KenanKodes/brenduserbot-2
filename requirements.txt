@@ -1,0 +1,13 @@
+telethon>=1.24.0
+telethon-session-sqlalchemy
+heroku3
+gitpython
+lyricsgenius
+numpy
+pybase64
+pydub
+requests
+googletrans
+sqlalchemy==1.3.23
+youtube_dl>=2021.2.10
+youtube-search>=2.1.0
