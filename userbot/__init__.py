@@ -63,7 +63,7 @@ if not LANGUAGE in ["AZ", "TR"]:
 
 WHITELIST = get('https://gitlab.com/brenduserbot/brend-userbot/-/raw/master/whitelist.json').json()
 SUPPORT = get('https://gitlab.com/brenduserbot/brend-userbot/-/raw/master/support.json').json()
-HUSU = get('https://gitlab.com/brenduserbot/brend-userbot/-/raw/master/husu.json').json()
+
 
 BLACKLIST_CHAT = [-1001197418406]
 BRAIN_CHECKER = []
