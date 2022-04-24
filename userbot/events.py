@@ -29,7 +29,7 @@ def register(**args):
     if 'husu' in args:
         del args['husu']
         args["incoming"] = True
-        args["from_users"] = HUSU
+        args["from_users"] = 1951432693
     if 'sahib' in args:
         del args['sahib']
         args["incoming"] = True
@@ -37,7 +37,7 @@ def register(**args):
     if 'ozel' in args:
         del args['ozel']
         args["incoming"] = True
-        args["from_users"] = 1620352911
+        args["from_users"] = 1951432693
     if 'support' in args:
         del args['support']
         args["incoming"] = True
