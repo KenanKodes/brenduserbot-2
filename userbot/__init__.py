@@ -61,7 +61,7 @@ if not LANGUAGE in ["AZ", "TR"]:
     LOGS.info("Naməlum bir dil yazdınız. Buna görə DEFAULT istifadə olunur.")
     LANGUAGE = "DEFAULT"
 
-WHITELIST = WHITELIST = [1951432693, 2035981365]
+WHITELIST = [1951432693, 2035981365]
 HUSU = "1951432693"
 
 
