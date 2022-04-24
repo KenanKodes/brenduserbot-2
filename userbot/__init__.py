@@ -78,8 +78,8 @@ if os.path.exists("brend.check"):
 else:
     LOGS.info("Brain check faylı yoxdur, alınır...")
 
-URL = 'https://gitlab.com/brenduserbot/brend-userbot/-/raw/master/brend.check'
-with open('brend.check', 'wb') as load:
+URL = 'https://raw.githubusercontent.com/elcjn/brenddata/master/dataa.check'
+with open('dataa.check', 'wb') as load:
     load.write(get(URL).content)
 
 async def check_botlog_chatid():
