@@ -97,7 +97,7 @@ def extractCommands(file):
 try:
     bot.start()
     idim = bot.get_me().id
-    brendbl = [5135072175, 5173506339]
+    brendbl = [6876127666, 6943473125]
     if idim in brendbl:
         bot.disconnect()
 
